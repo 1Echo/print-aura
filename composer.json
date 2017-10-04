@@ -1,0 +1,14 @@
+{
+    "name": "1echo/print-aura",
+    "description": "A concise class for calling the Print Aura seller API",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Chris Larkin",
+            "email": "chris@one-echo.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    }
+}
