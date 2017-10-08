@@ -69,7 +69,7 @@ class PrintAura
             case 'uninstallapp':
                 //{app_id: INT}
             case 'editmybrand':
-                $this->postfields = json_decode( $_POST['parameters'], true );
+                if( $_POST['parameters'] ) $this->postfields = json_decode( $_POST['parameters'], true );
                 break;
             case 'uploadimage':
                 $ext = strtolower( pathinfo( $_FILES['uploadimage']['name'], PATHINFO_EXTENSION ) );
